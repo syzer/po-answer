@@ -7,6 +7,8 @@ What it will be your po response...?
 ```
 npm i -g po-response
 po-response
+# or if you feel lucky, try:
+po-response -p
 ```
 
 # WHO

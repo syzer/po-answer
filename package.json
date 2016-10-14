@@ -1,6 +1,6 @@
 {
   "name": "po-response",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "What will be your PO response",
   "bin": "poResponse.js",
   "main": "poResponse.js",
