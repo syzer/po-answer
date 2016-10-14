@@ -1,15 +1,19 @@
 {
   "name": "po-response",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "What will be your PO response",
   "bin": "poResponse.js",
   "main": "poResponse.js",
   "scripts": {
-    "test": "echo \"All tests had passed....(away)\""
+    "test": "tap test.js"
   },
   "author": "syzer",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.16.4"
+    "lodash": "^4.16.4",
+    "tap": "^7.1.2"
+  },
+  "devDependencies": {
+    "tap": "^7.1.2"
   }
 }
