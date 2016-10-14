@@ -1,3 +1,10 @@
 # WAT
 
-what it will be your po reponse
+What it will be your po reponse...?
+
+# HOW
+
+```
+npm i -g po-response
+po-response
+```
