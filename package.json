@@ -1,6 +1,6 @@
 {
   "name": "po-response",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "What will be your PO response",
   "bin": "poResponse.js",
   "main": "poResponse.js",
@@ -10,8 +10,7 @@
   "author": "syzer",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.16.4",
-    "tap": "^7.1.2"
+    "lodash": "^4.16.4"
   },
   "devDependencies": {
     "tap": "^7.1.2"

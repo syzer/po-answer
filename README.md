@@ -14,3 +14,18 @@ po-response -p
 # WHO
 
 All PR most welcome!
+
+# Usage
+
+```
+po-response | cowsay
+ _____________________
+/ - Can we do it?     \
+\ - Not stable enough /
+ ---------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
