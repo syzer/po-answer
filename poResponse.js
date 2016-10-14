@@ -2,7 +2,7 @@
 
 const _ = require('lodash')
 const tap = _.curryRight(_.tap)
-const ask = tap(_.flow(_.curry(_.first), console.log))
+const ask = tap(_.flow(_.first, console.log))
 
 module.exports = _.flow(ask,  _.sample, console.log)([
     '- Can we do it?',
