@@ -1,6 +1,6 @@
 # WAT
 
-What it will be your po reponse...?
+What it will be your po response...?
 
 # HOW
 
