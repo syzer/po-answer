@@ -1,0 +1,15 @@
+{
+  "name": "po-response",
+  "version": "1.0.1",
+  "description": "What will be your PO response",
+  "bin": "poResponse.js",
+  "main": "poResponse.js",
+  "scripts": {
+    "test": "echo \"All tests had passed....(away)\""
+  },
+  "author": "syzer",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.16.4"
+  }
+}
