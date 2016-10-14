@@ -1,4 +1,4 @@
-# WAT
+# WAT [![Build Status](https://travis-ci.org/syzer/po-answer.svg?branch=master)](https://travis-ci.org/syzer/po-answer)
 
 What it will be your po response...?
 
