@@ -8,6 +8,7 @@
     "test": "tap test.js"
   },
   "author": "syzer",
+  "repository": "https://github.com/syzer/po-answer",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.16.4"
