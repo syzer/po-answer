@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const positive = process.argv[2] === '-p'
 const _ = require('lodash')
+const positive = process.argv[2] === '-p'
 const tap = _.curryRight(_.tap)
 const pick = e => tap(arr => console.log('-' + _.sample(arr[e])))
 
@@ -11,5 +11,6 @@ module.exports = _.flow(pick('q'), positive ? pick('p') : pick('n'))({
     n: ['To specific', 'Not stable enough', 'Requires a lot of thinking first', 'To much traffic',
         'Not specific enough', 'This is not what we do', 'Do not fully understand the benefit',
         'I want all team focus on that subject', 'We don\'t have expertise in that area',
-        'Not stable enough']
+        'Not stable enough', `It's a good idea in general, but we won't be able to deliver on this, 
+        since we don't have anyone with the needed skills to take over the role`]
 })
